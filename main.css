@@ -1,0 +1,32 @@
+.hero{
+    height:100vh;
+    background:url(images/bg.jpg) center/cover no-repeat;
+}
+
+.navbar{
+    padding-top:25px;
+}
+
+.nav-container{
+    width:90%;
+    max-width:1140px;
+    margin:auto;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:15px 30px;
+
+    border-radius:50px;
+
+    /* Glass effect */
+    background:rgba(255,255,255,0.15);
+
+    backdrop-filter:blur(15px);
+    -webkit-backdrop-filter:blur(15px);
+
+    border:1px solid rgba(255,255,255,0.25);
+
+    box-shadow:0 8px 30px rgba(0,0,0,.2);
+}
